@@ -43,6 +43,9 @@ public class HomeFragment extends Fragment {
         tvLastUpdated = root.findViewById(R.id.tvLastUpdated);
         progressBar = root.findViewById(R.id.progress_circular_home);
 
+        getActivity().setTitle("Общие данные");
+
+
         //call Volley
         getData();
         return root;
@@ -50,7 +53,7 @@ public class HomeFragment extends Fragment {
 
     private String getDate(long milliSecond){
         // Mon, 23 Mar 2020 02:01:04 PM
-        SimpleDateFormat formatter = new SimpleDateFormat("EEE, dd MMM yyyy hh:mm:ss aaa");
+        SimpleDateFormat formatter = new SimpleDateFormat("EEE, dd MMM yyyy hh:mm:ss");
 
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(milliSecond);

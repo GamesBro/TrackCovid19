@@ -7,25 +7,11 @@
     android:background="@color/colorPrimary"
     tools:context=".ui.country.CountryFragment">
 
-    <LinearLayout
-        android:id="@+id/linearLayoutTotalCountries"
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="50dp">
-        <TextView
-            android:textColor="#fff"
-            style="@style/TotalFontStyle"
-            android:textSize="24sp"
-            android:id="@+id/tvTotalCountries"
-            tools:text = "185 countries"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@+id/linearLayoutTotalCountries"
+
         android:id="@+id/rvCovidCountry"
         tools:listitem="@layout/item_list_covid_country"
         android:layout_width="match_parent"
