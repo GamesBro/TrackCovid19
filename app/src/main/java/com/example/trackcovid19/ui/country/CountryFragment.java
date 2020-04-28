@@ -136,7 +136,7 @@ public class CountryFragment extends Fragment {
 
 
                         //Вывод количества стран
-                        getActivity().setTitle(jsonArray.length()+ " countries");
+                        getActivity().setTitle(jsonArray.length()+ " стран(ы)");
 
                         showRecyclerView();
                     } catch (JSONException e) {
@@ -187,7 +187,7 @@ public class CountryFragment extends Fragment {
 
 
                         //Вывод количества стран
-                        getActivity().setTitle(jsonArray.length()+ " countries");
+                        getActivity().setTitle(jsonArray.length()+ " стран(ы)");
 
                         showRecyclerView();
                     } catch (JSONException e) {
@@ -212,7 +212,7 @@ public class CountryFragment extends Fragment {
         inflater.inflate(R.menu.country_menu, menu);
         MenuItem searchItem = menu.findItem(R.id.action_search);
         SearchView searchView = new SearchView(getActivity());
-        searchView.setQueryHint("Search...");
+        searchView.setQueryHint("Поиск...");
         searchView.setMaxWidth(Integer.MAX_VALUE);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
@@ -237,13 +237,13 @@ public class CountryFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.action_sort_alpha:
-                Toast.makeText(getContext(), "Sort Alphabetically", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Сортировка по Алфавиту", Toast.LENGTH_SHORT).show();
                 covidCountries.clear();
                 progressBar.setVisibility(View.VISIBLE);
                 getDataFromServerSortAlphabet();
                 return true;
             case R.id.action_sort_cases:
-                Toast.makeText(getContext(), "Sort by Total Cases", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(), "Сортировка по количеству заболевших", Toast.LENGTH_SHORT).show();
                 covidCountries.clear();
                 progressBar.setVisibility(View.VISIBLE);
                 getDataFromServerSortTotalCases();

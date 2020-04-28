@@ -42,7 +42,7 @@
                 style="@style/LabelFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Total Cases"
+                android:text="Всего заражённых"
                 android:textColor="#fff"
                 android:textSize="12sp" />
 
@@ -67,7 +67,7 @@
                 style="@style/LabelFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Today Cases"
+                android:text="Заражённых сегодня"
                 android:textColor="#fff"
                 android:textSize="12sp" />
 
@@ -102,7 +102,7 @@
                 style="@style/LabelFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Total Deaths"
+                android:text="Всего смертей"
                 android:textColor="#fff"
                 android:textSize="12sp" />
 
@@ -127,7 +127,7 @@
                 style="@style/LabelFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Today Deaths"
+                android:text="Смертей за сегодня"
                 android:textColor="#fff"
                 android:textSize="12sp" />
 
@@ -162,7 +162,7 @@
                 style="@style/LabelFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Total Recovered"
+                android:text="Всего выздоровевших"
                 android:textColor="#fff"
                 android:textSize="12sp" />
 
@@ -195,7 +195,7 @@
                 style="@style/LabelFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Total Active"
+                android:text="Болеют на данный момент"
                 android:textColor="#fff"
                 android:textSize="12sp" />
 
@@ -220,7 +220,7 @@
                 style="@style/LabelFontStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Total Critical"
+                android:text="В критическом состоянии"
                 android:textColor="#fff"
                 android:textSize="12sp" />
 
