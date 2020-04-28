@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b3b273b-59c9-4239-b23d-17bd3e25b48a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/search_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sort_by_alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sort_by_cases.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,10 +24,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/country/CountryFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/country/CountryFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/country/CovidCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/country/CovidCountry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/country/CovidCountryAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/country/CovidCountryAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/home/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/home/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_country.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_country.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/country/CovidCountryDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/trackcovid19/ui/country/CovidCountryDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/search_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/country_menu.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588067730261</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Обновления:&#10;1)Добавлен поиск определённых стран&#10;2)Изменено верхнее окно">
+      <created>1588071417489</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588071417489</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +211,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Обновления:&#10;1) Теперь можно узнать дату обновления информации.&#10;2) Информацию по каждой стране.&#10;3) Количество стран, в которых присутствуют заражённые." />
     <MESSAGE value="Обновления:&#10;1)Добавлены флаги для каждой страны&#10;2)Немного исправлен дизайн" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обновления:&#10;1)Добавлены флаги для каждой страны&#10;2)Немного исправлен дизайн" />
+    <MESSAGE value="Обновления:&#10;1)Добавлен поиск определённых стран&#10;2)Изменено верхнее окно" />
+    <option name="LAST_COMMIT_MESSAGE" value="Обновления:&#10;1)Добавлен поиск определённых стран&#10;2)Изменено верхнее окно" />
   </component>
 </project>
